@@ -19,7 +19,7 @@ const Navbar = () => {
     <nav>
       <div className="hidden lg:block bg-[#0D4036] h-4"></div>
       <div
-        className={`flex justify-between items-center py-4 sm:py-6 lg:py-10 px-4 sm:px-8 lg:px-20 xl:px-40 transition-colors duration-300 ${
+        className={`flex justify-between mx-auto items-center py-4 sm:py-6 lg:py-10 px-4 sm:px-8 lg:px-20 xl:px-40 transition-colors duration-300 ${
           isAnyLiHovered ? 'bg-white' : 'bg-[#0D4036]'
         }`}
       >

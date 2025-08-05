@@ -2,7 +2,7 @@ import { ArrowRight } from 'lucide-react';
 
 export const MobileUpcoming = () => {
   return (
-    <div className=" lg:hidden bg-[#2D9378] mb-16 px-10  md:px-8 lg:px-40 py-20 relative">
+    <div className=" md:hidden bg-[#2D9378] mb-16 px-10  md:px-8 lg:px-40 py-20 relative">
       <div
         className="absolute inset-0 pointer-events-none opacity-100"
         style={{
