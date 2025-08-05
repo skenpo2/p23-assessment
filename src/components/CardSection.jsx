@@ -80,13 +80,11 @@ export default function CardSection() {
       />
 
       <div className="max-w-8xl mx-auto relative z-10">
-        {/* Events Grid */}
         {/* Hidden on mobile */}
         <div className="hidden md:grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 grid-rows-2 gap-6 xl:gap-10">
           {/* Row 1 - Column 1 */}
           <UpcomingCard />
 
-          {/* Row 1 - Column 2 */}
           <EventCard
             title="Vision & Execution"
             description={eventDescription}
@@ -94,16 +92,12 @@ export default function CardSection() {
             isLarge={true}
           />
 
-          {/* Row 1 - Column 3 */}
           <EventCard title="Event Name" description={eventDescription} />
 
-          {/* Row 2 - Column 1 */}
           <EventCard title="Event Name" description={eventDescription} />
 
-          {/* Row 2 - Column 2 */}
           <EventCard title="Event Name" description={eventDescription} />
 
-          {/* Row 2 - Column 3 */}
           <EventCard title="Event Name" description={eventDescription} />
         </div>
         {/* Mobile View */}

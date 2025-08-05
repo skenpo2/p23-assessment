@@ -1,1 +1,11 @@
+@font-face {
+  font-family: Georgia;
+  src: url('../src/assets//fonts/georgia.ttf');
+}
+
+@font-face {
+  font-family: g;
+  src: url('../src//assets//fonts/GT-Walsheim-Condensed-Thin-Trial-BF651b7fc72dc1c.otf');
+}
+
 @import 'tailwindcss';

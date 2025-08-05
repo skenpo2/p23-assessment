@@ -1,6 +1,6 @@
 import React from 'react';
 
-const LogoSVG = ({ isAnyLiHovered }) => {
+const LogoSVG = () => {
   return (
     <svg
       width="63"

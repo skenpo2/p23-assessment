@@ -47,7 +47,7 @@ const EventTabs = () => {
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.';
 
   return (
-    <div className="lg:hidden  bg-gray-50 min-h-screen">
+    <div className="lg:hidden font-g bg-gray-50 min-h-screen">
       {/* Tab Navigation */}
       <MobileUpcoming />
       <div className="flex mb-6 border-b-6  border-[#0D4036] bg-white w-full">
@@ -90,7 +90,6 @@ const EventTabs = () => {
         })}
       </div>
 
-      {/* Empty State for BRN tab if no events */}
       {activeTab === 'brn' && filteredEvents.length === 0 && (
         <div className="text-center py-12">
           <div className="text-gray-400 mb-2">

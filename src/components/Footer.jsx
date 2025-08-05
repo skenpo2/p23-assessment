@@ -283,7 +283,7 @@ const Footer = () => {
 
               {/* Subscribe */}
               <div className="col-span-1">
-                <h4 className="text-white text-sm font-medium mb-3">
+                <h4 className="text-white  text-lg font-medium mb-3">
                   Subscribe to get Updates
                 </h4>
                 <div className="flex flex-col space-y-3">
